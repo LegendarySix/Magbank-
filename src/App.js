@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import H1 from './components/H1';
+import Navbar from './components/Navigation/Navbar';
+import H1 from './components/Navigation/H1';
 import './App.scss';
 
 const App = () => (
