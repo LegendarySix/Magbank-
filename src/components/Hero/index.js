@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Button, Image } from 'react-bootstrap';
-import logo from '../assets/logo__mobile.png';
-import logoDesktop from '../assets/logo__desktop.png';
-import './Hero.scss';
+import logo from '../../assets/logo__mobile.png';
+import logoDesktop from '../../assets/logo__desktop.png';
+import './index.scss';
 
 const Hero = () => (
   <Card className="text-center text-light hero">

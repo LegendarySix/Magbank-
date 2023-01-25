@@ -7,8 +7,8 @@ import {
   Button,
   NavDropdown,
 } from 'react-bootstrap';
-import './Navbar.scss';
-import logo from '../assets/logo.svg';
+import './index.scss';
+import logo from '../../assets/logo.svg';
 
 const Navigation = () => (
   <Navbar variant='dark' expand='lg'>
