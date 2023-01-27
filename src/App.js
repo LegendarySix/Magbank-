@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CardList from './components/CardList';
 import CreditCard from './components/CreditCard';
+import CenteredButton from './components/CenteredButton';
+import Institutional from './components/Institutional';
 import './App.scss';
 
 import posts from './data/posts';
@@ -14,6 +16,8 @@ const App = () => (
 
     <CreditCard/>
     <CardList posts={posts} />
+    <CenteredButton>Abra sua conta</CenteredButton>
+    <Institutional/>
   </div>
 );
 
